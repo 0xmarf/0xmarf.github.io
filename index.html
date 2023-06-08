@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Windows 97 Themed Resume</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <div class="window">
+        <div class="title-bar">
+            <div>Mitchell Marfinetz's Resume</div>
+            <div class="min-max-close">
+                <button>-</button>
+                <button>□</button>
+                <button>x</button>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Mitchell Marfinetz</h2>
+            <p>
+            (814) 923-7851 | Mitchmarfinetz@gmail.com<br>
+            <a href="https://github.com/0xmarf">GitHub Profile</a><br>
+            <a href="https://eportfolio.mygreatlearning.com/mitchell-marfinetz">ePortfolio</a>
+            <a href="https://dune.xyz/profile/0xmitch">Dune Profile</a>
+            </p>
+            
+            <h3>Objective</h3>
+            <p>A skilled and driven professional with experience in business development, community management, on-chain analytics, and research in the crypto, web3, and tech industries. Proficient in various programming languages and tools, with a strong focus on blockchain technology and decentralized finance.</p>
+
+            <h3>Education</h3>
+            <p>
+            <strong>MIT Professional Education</strong><br>
+            Certificate in Applied Data Science with a focus on Deep Learning
+            </p>
+
+            <h3>Course Projects</h3>
+            <ul>
+                <li><a href="#" onclick="openProject('project1')">Building a recommendation system to recommend the best Amazon products to users (MAR 2022)</a></li>
+                <li><a href="#" onclick="openProject('project2')">Recognizing house number digits from street view images using Neural Networks (MAR 2022)</a></li>
+                <li><a href="#" onclick="openProject('project3')">Predicting the conversion of leads to customers (MAR 2022)</a></li>
+                <li><a href="#" onclick="openProject('project4')">Predicting house prices in Boston and predicting hotel bookings cancellations (FEB 2022)</a></li>
+                <li><a href="#" onclick="openProject('project5')">Applying dimensionality reduction on the Auto-mpg dataset and segmenting bank customers (FEB 2022)</a></li>
+                <li><a href="#" onclick="openProject('project6')">Analyzing the marketing campaigns to help CMO devise the next strategy (FEB 2022)</a></li>
+                <!-- other projects -->
+            </ul>
+
+            <!-- Pop up project descriptions -->
+            <div id="project1" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeProject('project1')">&times;</span>
+                <p>Course: Recommendation Systems<br>
+                This project involves recommending the best Amazon products available to users based on past rating data using recommendation systems techniques.<br>
+                Skills & Tools Covered: Rank Based Recommendation Systems, Similarity Based Recommendation Systems, Matrix Factorization Based Recommendation Systems<br></p>
+            </div>
+            </div>
+
+            <div id="project2" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeProject('project2')">&times;</span>
+                <p>Course: Deep Learning<br>
+                This project involves recognizing street view housing number digits using artificial and convolutional neural networks.<br>
+                Skills & Tools Covered: Artificial Neural Networks, Convolutional Neural Networks<br></p>
+            </div>
+            </div>
+
+            <div id="project3" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeProject('project3')">&times;</span>
+                    <p>Course: Practical Data Science<br>
+                    This project involves identifying which leads are more likely to convert to paid customers based on attributes of leads and their interaction details.<br>
+                    Skills & Tools Covered: Decision Trees, Random Forest<br></p>
+                </div>
+            </div>
+            
+            <div id="project4" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeProject('project4')">&times;</span>
+                    <p>Course: Machine Learning<br>
+                    This project involves predicting house prices in the Boston metropolitan area based on the features of the property and its locality using regression techniques.<br>
+                    Skills & Tools Covered: Linear Regression, Logistic Regression, kNN<br></p>
+                </div>
+            </div>
+            
+            <div id="project5" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeProject('project5')">&times;</span>
+                    <p>Course: Data Analysis & Visualization<br>
+                    The first part of this project involves exploring the Auto-mpg dataset by applying dimensionality reduction techniques and visualizing the data in lower dimensions to extract insights. The second part involves segmenting a bank's customers to help the bank upgrade the service delivery model and ensure that customers' queries are resolved faster.<br>
+                    Skills & Tools Covered: PCA, t-sne, Clustering<br></p>
+                </div>
+            </div>
+            
+            <div id="project6" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeProject('project6')">&times;</span>
+                    <p>Course: Foundations for Data Science<br>
+                    This project aims to analyze marketing data and address some important business problems/questions related to customer demographics, product preferences, channel performances, etc.<br>
+                    Skills & Tools Covered: Exploratory Data Analysis, Data Visualization, Statistics<br></p>
+                </div>
+            </div>
+
+            <p>
+            <strong>Udacity</strong><br>
+            Blockchain Developer program
+            </p>
+
+            <p>
+            <strong>Alchemy University</strong><br>
+            Ethereum Developer Bootcamp
+            </p>
+
+            <p>
+            <strong>Kent State University</strong>, Kent, Ohio<br>
+            Bachelors of Business Administration, Major: Computer Information Science
+            </p>
+
+            <h3>Experience</h3>
+            <p>
+            <strong>Integral</strong><br>
+            Business Development, Community Management, and Research<br>
+            Contributing to the growth and development of a leading DeFi project.<br>
+            Managing and engaging with the community to increase product awareness.<br>
+            Conducting research to support strategic decisions and product development.
+            </p>
+
+            <p>
+            <strong>Lakeshore Country Club</strong>, Erie, PA<br>
+            Event Team Member<br>
+            Orchestrated large events such as weddings and banquets, demonstrating strong teamwork skills.
+            </p>
+
+            <p>
+            <strong>Waldameer & Water World</strong>, Erie, PA<br>
+            Lifeguard<br>
+            Enforced facility safety protocolsand provided lifeguarding services.
+            </p>
+
+            <p>
+            <strong>Giant Eagle</strong>, Girard, PA<br>
+            Customer Service Representative<br>
+            Implemented customer service skills to assist customers with needs.
+            </p>
+
+            <p>
+            <strong>Discord Moderator</strong>, Stratton Dogemont & CybonixNFT<br>
+            Moderating large online communities and ensuring respectful communication.
+            </p>
+
+            <h3>Personal Projects</h3>
+            <p>
+            <strong>MEV-Searcher</strong><br>
+            Currently developing a tool to search for MEV (Maximum Extractable Value) opportunities on Ethereum.
+            </p>
+
+            <p>
+            <strong>Blockchain Project</strong><br>
+            Constructed a basic blockchain and applied machine learning algorithms on real datasets.
+            </p>
+
+            <p>
+            <strong>Caffeine Consumption and Academic Performance Study</strong><br>
+            Lead an in-depth, independent research project analyzing the influence of caffeine consumption on student study habits and academic performance. Gathered and interpreted a comprehensive set of data using rigorous scientific methodologies. Findings contributed to a better understanding of the relationship between dietary stimulants and cognitive function, potentially informing improved study techniques and student wellness strategies.
+            </p>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>Active listener</li>
+                <li>Adaptability</li>
+                <li>Fast learner</li>
+                <li>Persistent</li>
+                <li>On-Chain Analytics</li>
+                <li>SQL</li>
+                <li>Python</li>
+                <li>Javascript</li>
+                <li>Solidity</li>
+                <li>DeFi</li>
+            </ul>
+
+            <h3>Honors</h3>
+            <ul>
+                <li>National Honors Society</li>
+                <li>Dean's List, Fall 2020</li>
+            </ul>
+            <h3>Community Service/Volunteer Experience</h3>
+            <p>
+            <strong>Camp Sherwin</strong>, Girard, PA: 20 hours of volunteer work.<br>
+            <strong>Girard Highschool</strong>: 10 hours of tutoring students on various subjects.<br>
+            <strong>Girard Borough</strong>, Girard, PA: 20 hours of volunteer work including trash pickup and landscaping.
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
